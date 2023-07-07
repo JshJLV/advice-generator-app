@@ -1,9 +1,10 @@
+import Card from "./components/Card";
+
 function App() {
   return (
-    <div>
-      <h1>Hola mundo</h1>
-      <p>Hola vite</p>
-    </div>
+    <main className="bg-dark-blue h-screen flex justify-center py-40 px-4">
+      <Card />
+    </main>
   );
 }
 
